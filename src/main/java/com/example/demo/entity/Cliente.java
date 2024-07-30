@@ -18,6 +18,7 @@ public class Cliente {
 		this.dni = dni;
 	}
 
+	//// Id
 	public int getId() {
 		return id;
 	}
@@ -26,6 +27,8 @@ public class Cliente {
 		this.id = id;
 	}
 
+	//// Nombre
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -33,7 +36,7 @@ public class Cliente {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
+	////// Apellido
 	public String getApellidos() {
 		return apellidos;
 	}
@@ -42,6 +45,7 @@ public class Cliente {
 		this.apellidos = apellidos;
 	}
 
+	//// Dni
 	public String getDni() {
 		return dni;
 	}
